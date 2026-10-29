@@ -1,6 +1,6 @@
 # EasyEffects preset: IdeaPad Speakers
 
-An [EasyEffects](https://github.com/wwmm/easyeffects) output preset for Lenovo IdeaPad laptop speakers (Raptor Lake cAVS). It adds some body and clarity without the crispy distortion you get from stacking too much gain.
+An [EasyEffects](https://github.com/wwmm/easyeffects) output preset for Lenovo IdeaPad laptop speakers (Raptor Lake cAVS, Lenovo IdeaPad Slim 3 14IRH10). It adds some body and clarity without the crispy distortion you get from stacking too much gain.
 
 ## Chain
 
@@ -24,7 +24,3 @@ easyeffects -l "IdeaPad Speakers"
 ```
 
 For a Flatpak install, use `~/.var/app/com.github.wwmm.easyeffects/data/easyeffects/output/` instead.
-
-## Notes
-
-The gain is kept low on purpose. Earlier versions used +7 dB of limiter input gain and +6 dB of compressor makeup, which drove the limiter hard enough to sound crispy. If it's too quiet, raise the system volume rather than the gain inside the chain.
